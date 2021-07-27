@@ -14,6 +14,8 @@ These instructions use a Docker Development Environment to host all the code and
     * [Docker Desktop](https://www.docker.com/products/docker-desktop)
     * [Visual Studio Code](https://code.visualstudio.com/Download)
 
+1. Create a [GitHub account](https://github.com/join) for yourself, if you do not already have one.
+
 1. In Visual Studio Code, install the [Remote-Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension.
 
     * Press `Ctrl-P` followed by `>`
@@ -28,7 +30,8 @@ These instructions use a Docker Development Environment to host all the code and
     * Type `Remote-Containers`
     * Select `Clone Repository in Container Volume...`
     * Select `Clone a reposiory from GitHub in a Container Volumne`
-    * Type `ololabs/fsharp-mvu-menu`
+    * If requested, authorize VS Code to use your GitHub credentials.
+    * Type `WWCode-SV/fsharp-workshop`
     * Select `main`
     * Click on "Starting Dev Container (show log)" in the bottom right corner to monitor startup progress.
     * Wait for the startup to complete. (It may required several minutes the first time.)
@@ -144,4 +147,4 @@ Your program manager has asked you to make the following improvements to the res
 
 ## Workshop solution
 
-Look at the commits on the solution branch to see [the suggested solution](https://github.com/ololabs/fsharp-mvu-menu/commits/solution).
+Look at the commits on the solution branch to see [the suggested solution](https://github.com/WWCode-SV/fsharp-workshop/commits/solution).
